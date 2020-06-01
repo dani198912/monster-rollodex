@@ -35,8 +35,9 @@ render() {
     )
 
   return (
+    
     <div className = "App">
-      
+      <h1>Monsters Rollodex</h1>
       <SearchBar 
         placeholder='Search monsters'
         handleChange = {this.handleChange}// in object you insert a function
